@@ -1,0 +1,12 @@
+<section class="container px-5 py-24 mx-auto">
+  <h1 class="text-4xl font-bold title-font text-center mb-20">All Todos</h1>
+  <div class="grid grid-cols-3 gap-1">
+    <ng-container *ngFor="let todo of todos">
+      <app-todo-card
+        [title]="todo.title"
+        [description]="todo.description"
+        [createdDate]="todo.createdDate"
+      ></app-todo-card>
+    </ng-container>
+  </div>
+</section>

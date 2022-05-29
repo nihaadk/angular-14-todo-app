@@ -8,7 +8,7 @@ In this Application i have demonstrates this features:
 * Typed Reactive Forms
 ## Built with:
 
-* [Angular 14.0.0-rc.0.](https://angular.io/)
+* [Angular ](https://angular.io/) version 14.0.0-rc.0.
 * [Daisyui](https://daisyui.com/)
 
 ## Build Setup
