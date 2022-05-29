@@ -1,6 +1,6 @@
 import { RouterModule } from '@angular/router';
 import { NavItemComponent } from './../nav-item/nav-item.component';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 const components = [
@@ -14,11 +14,4 @@ const components = [
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class HeaderComponent {}

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,5 +10,4 @@ import { CommonModule } from '@angular/common';
 })
 export class NavItemComponent {
   @Input() routerLink!: string;
-
 }

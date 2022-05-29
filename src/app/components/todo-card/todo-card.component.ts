@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,14 +8,9 @@ import { CommonModule } from '@angular/common';
   templateUrl: './todo-card.component.html',
   styleUrls: ['./todo-card.component.scss']
 })
-export class TodoCardComponent implements OnInit {
+export class TodoCardComponent {
   @Input() title!: string;
   @Input() description!: string;
   @Input() createdDate!: Date;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
