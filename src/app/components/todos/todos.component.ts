@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Todo } from '../../interfaces/Todo.interface';
 
+
 const components = [
   TodoCardComponent
 ]
